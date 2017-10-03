@@ -8,6 +8,7 @@ One of the drawbacks running protractor with a `maxInstance > 0` is that mochawe
 In this example we show how to set up the protractor config in order to get multiple reports and to have files and titles with the spec name.
 
 ### protractor.config.js
+
 ```javascript
 exports.config = {
   framework: 'mocha',
@@ -40,3 +41,20 @@ exports.config = {
   }
 };
 ```
+
+
+### Usage
+
+Install the project dependencies.
+```bash
+npm install
+```
+
+Run the tests.
+```bash
+npm test
+```
+
+### Output
+
+You will get a folder `mochawesome-report` with the report files by spec.
