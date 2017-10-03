@@ -42,8 +42,7 @@ exports.config = {
 };
 ```
 
-
-### Usage
+### Usage
 
 Install the project dependencies.
 ```bash
